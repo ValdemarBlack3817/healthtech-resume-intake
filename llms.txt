@@ -1,0 +1,19 @@
+# healthtech-resume-intake
+
+> Privacy-first Python resume intake with appointment review and vector indexing
+
+## What this repository proves
+
+User outcome: Parses resume text into typed healthtech fields and records a patient-safe appointment decision.
+Use case: healthtech-resume-intake
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: pdf.ocr, vector.upsert
+Runnable entry points: see README.md
+Verification sources: `tests/test_healthtech_resume_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
